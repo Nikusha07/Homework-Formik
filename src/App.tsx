@@ -3,7 +3,7 @@ import * as Yup from 'yup';
 import './App.css';
 import BackGroundIng from './assets/Group 5.svg';
 import styled from 'styled-components';
-import React, { useEffect, useState } from 'react';
+
 
 const validationSchema = Yup.object().shape({
   name: Yup.string().required('First Name cannot be empty'),
