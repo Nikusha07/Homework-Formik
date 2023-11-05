@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.FormBox{
+width: 540px;
+height: 474px;
+background-color: rgb(255, 255, 255);
+padding: 20px;
+display: flex;
+border: none;
+border-radius: 5px;
+z-index: 5;
+justify-content: center;
+align-items: center;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 3px, rgba(0, 0, 0, 0.75) 0px 13px 25px;
+
+}
+.Input{
+  height: 56px;
+  width: 100%;
+  border-radius: 3px;
+  border: solid 0.3px black ;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.Errormessage{
+  position: absolute;
+  right: 0;
+  display: flex;
+  color: red;
+  font-family: 600;
+}
+@media screen and (max-width: 900px) {
+  .FormBox {
+   width: 80%;
+  }
+}
